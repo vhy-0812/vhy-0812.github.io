@@ -6,7 +6,7 @@ body {
 }
 
 .box {
-	width: 1000px;
+	width: 2000px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -18,8 +18,8 @@ body {
 #pinkboard {
 	position: relative;
 	margin: auto;
-	height: 750px;
-	width: 750px;
+	height: 1000px;
+	width: 1000px;
 	animation: animate 1.2s infinite;
 }
 
@@ -27,14 +27,14 @@ body {
 	content: '';
 	position: absolute;
 	background: #f3a5b9;
-	width: 100px;
-	height: 160px;
+	width: 200px;
+	height: 320px;
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 }
 
 #pinkboard:before {
-	left: 100px;
+	left: 200px;
 	transform: rotate(-45deg);
 	transform-origin: 0 100%;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25),

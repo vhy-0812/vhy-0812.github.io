@@ -16,8 +16,8 @@
       }
       canvas {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 200%;
+        height: 200%;
       }
     </style>
   </HEAD>
@@ -222,12 +222,12 @@
         // Get point on heart with -PI <= t <= PI
         function pointOnHeart(t) {
           return new Point(
-            160 * Math.pow(Math.sin(t), 3),
-            130 * Math.cos(t) -
+            160 * Math.pow(Math.sin(t), 3)*1.2,
+            (130 * Math.cos(t) -
               50 * Math.cos(2 * t) -
               20 * Math.cos(3 * t) -
               10 * Math.cos(4 * t) +
-              25
+              25)*1.2
           );
         }
 
@@ -260,7 +260,7 @@
           }
           context.closePath();
           // Create the fill
-          context.fillStyle = "#f50b02";
+          context.fillStyle = "#ff69b4";
           context.fill();
           // Create the image
           var image = new Image();
