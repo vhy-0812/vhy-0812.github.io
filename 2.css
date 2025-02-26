@@ -1,0 +1,43 @@
+
+/* Tất cả màu bên dưới bạn đều có thể thay đổi được */
+.thuTitle {
+	padding: 20px;
+	background-color: #e7bffd;
+	color: rgb(255, 255, 255);
+	font-family: 'Dancing Script', cursive;
+	font-size: 26pt;
+}
+
+.tamthu {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20pt;
+	color: rgb(0, 0, 0);
+}
+
+.content {
+	background-color: #f5d9f7;
+}
+
+body {
+	/* Ảnh nền của trang thứ 2 */
+	background-image: url("./img/a.jpg");
+	background-size: cover;
+    background-repeat: none;
+}
+span {
+	display: inline-block;
+	white-space: pre;
+}
+
+.iloveyou {
+	position: relative;
+}
+
+.mask {
+	position: absolute;
+	background-color: #f5d9f7;
+	width: 100%;
+	height:100%;
+	top: 0;
+	left: 0;
+}
